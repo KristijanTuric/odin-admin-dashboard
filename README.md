@@ -3,7 +3,7 @@
 - [X] Make basic layout (sidebar - header - main content) using Grid
 - [ ] Fill out the whole layout using dummy content and placeholder images
   - [X] Sidebar
-  - [ ] Header
+  - [X] Header
   - [ ] Main Content
 - [ ] Style the design (color palettes, icons, images, fonts, etc.)
 - [ ] Publish the finished design to GitHub Pages
