@@ -25,49 +25,49 @@
         <div id="sidebar-middle">
             <div class="sidebar-control">
                 <img class="sidebar-logo" src="icons/home.svg">
-                <p>Home</p>
+                <a href="">Home</a>
             </div>
 
             <div class="sidebar-control">
                 <img class="sidebar-logo" src="icons/account.svg">
-                <p>Profile</p>
+                <a href="">Profile</a>
             </div>
 
             <div class="sidebar-control">
                 <img class="sidebar-logo" src="icons/mailbox.svg">
-                <p>Messages</p>
+                <a href="">Messages</a>
             </div>
 
             <div class="sidebar-control">
                 <img class="sidebar-logo" src="icons/history.svg">
-                <p>History</p>
+                <a href="">History</a>
             </div>
 
             <div class="sidebar-control">
                 <img class="sidebar-logo" src="icons/file-document-outline.svg">
-                <p>Tasks</p>
+                <a href="">Tasks</a>
             </div>
 
             <div class="sidebar-control">
                 <img class="sidebar-logo" src="icons/account-group.svg">
-                <p>Communities</p>
+                <a href="">Communities</a>
             </div>
         </div>
 
         <div id="sidebar-bottom">
             <div class="sidebar-control">
                 <img class="sidebar-logo" src="icons/cog.svg">
-                <p>Settings</p>
+                <a href="">Settings</a>
             </div>
 
             <div class="sidebar-control">
                 <img class="sidebar-logo" src="icons/face-agent.svg">
-                <p>Support</p>
+                <a href="">Support</a>
             </div>
 
             <div class="sidebar-control">
                 <img class="sidebar-logo" src="icons/incognito.svg">
-                <p>Privacy</p>
+                <a href="">Privacy</a>
             </div>
         </div>
 
@@ -78,22 +78,22 @@
         <div id="header-upper">
             <div id="header-upper-columnOne">
                 <img src="icons/magnify.svg">
-                <input class="header-input">
+                <input placeholder="Search" class="header-input">
             </div>
 
             <div id="header-upper-columnTwo">
                 <img src="icons/bell-ring-outline.svg">
-                <img src="icons/google-downasaur.svg">
+                <img src="icons/spacesuit.svg">
                 <a href="https://github.com/KristijanTuric/odin-admin-dashboard">Kristijan Turic</a>
             </div>
         </div>
 
         <div id="header-lower">
             <div id="header-lower-columnOne">
-                <img src="icons/google-downasaur.svg">
+                <img src="icons/spacesuit.svg">
                 <div>
                     <p id="header-greeting">Hi there,</p>
-                    <p id="header-name">Kristijan Turic</p>
+                    <p id="header-name">Kristijan</p>
                 </div>
             </div>
 
@@ -150,7 +150,7 @@
             <div class="projectDisplay">
                 <div class="projectText">
                     <p><a href="https://github.com/KristijanTuric/odin-admin-dashboard">Admin Dashboard</a></p>
-                    <p>You are looking at it RIGHT NOW! WoW</p>
+                    <p>You are looking at it</p>
                 </div>
                 <div class="projectIcons">
                     <img src="icons/star-plus-outline.svg">
@@ -161,8 +161,8 @@
 
             <div class="projectDisplay">
                 <div class="projectText">
-                    <p>Some C# project</p>
-                    <p>This is an awesome project</p>
+                    <p><a href="https://github.com/KristijanTuric/Task-List">Task List</a></p>
+                    <p>List of tasks that you can finish and then remove, made with C# and WPF</p>
                 </div>
                 <div class="projectIcons">
                     <img src="icons/star-plus-outline.svg">
@@ -173,8 +173,8 @@
 
             <div class="projectDisplay">
                 <div class="projectText">
-                    <p>Some other C# project</p>
-                    <p>This is an awesome project</p>
+                    <p><a href="https://github.com/KristijanTuric/Image-Flipper">Image Flipper</a></p>
+                    <p>Open any image on your computer and rotate it left OR right, made with C# and WPF</p>
                 </div>
                 <div class="projectIcons">
                     <img src="icons/star-plus-outline.svg">
@@ -188,51 +188,60 @@
             <div id="news">
                 <div>Announcements</div>
                 <div>
-                    <p>Site Maintenance</p>
-                    <p>This site will undergo maintenance, where Phil will brush the dust of the servers.</p>
-                </div>
+                    <div class="news-article">
+                        <p>Site Maintenance</p>
+                        <p>This site will undergo maintenance, where Phil will brush the dust of the servers.</p>
+                    </div>
 
-                <div>
-                    <p>Community Day</p>
-                    <p>The webiste community day is on the 31st of February</p>
-                </div>
+                    <div class="article-divider"></div>
 
-                <div>
-                    <p>Privacy on our site</p>
-                    <p>Our site is super private, all secret agents use it</p>
+                    <div class="news-article">
+                        <p>Community Day</p>
+                        <p>The webiste community day is on the 31st of February</p>
+                    </div>
+
+                    <div class="article-divider"></div>
+
+                    <div class="news-article">
+                        <p>Privacy on our site</p>
+                        <p>Our site is super private, all secret agents use it</p>
+                    </div>
                 </div>
             </div>
+
             <div id="trending">
                 <div>Trending</div>
                 <div>
-                    <img>
-                    <div>
-                        <p>@bruce</p>
-                        <p>He is NOT Batman</p>
+                    <div class="trending-control">
+                        <img src="icons/batman.svg">
+                        <div>
+                            <p>@bruce</p>
+                            <p>He is NOT Batman</p>
+                        </div>
                     </div>
-                </div>
 
-                <div>
-                    <img>
-                    <div>
-                        <p>@peter</p>
-                        <p>He is NOT Spiderman</p>
+                    <div class="trending-control">
+                        <img src="icons/spider.svg">
+                        <div>
+                            <p>@peter</p>
+                            <p>He is NOT Spiderman</p>
+                        </div>
                     </div>
-                </div>
 
-                <div>
-                    <img>
-                    <div>
-                        <p>@kristijan</p>
-                        <p>He is NOT here</p>
+                    <div class="trending-control">
+                        <img src="icons/spacesuit.svg">
+                        <div>
+                            <p>@kristijan</p>
+                            <p>He is NOT here</p>
+                        </div>
                     </div>
-                </div>
 
-                <div>
-                    <img>
-                    <div>
-                        <p>@oak</p>
-                        <p>He is NOT a tree</p>
+                    <div class="trending-control">
+                        <img src="icons/tree.svg">
+                        <div>
+                            <p>@oak</p>
+                            <p>He is NOT a tree</p>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -127,6 +127,17 @@ body
     outline: none;
 }
 
+.sidebar-control > a, .sidebar-control > a:visited
+{
+    color: white;
+}
+
+.sidebar-control > a:hover
+{
+    color: lightskyblue;
+    text-decoration: none;
+}
+
 a:visited, a
 {
     color: black;
@@ -190,7 +201,6 @@ a:hover
 
 /*#endregion Header*/
 
-
 /*#region Main Content*/
 
 #main-content
@@ -199,7 +209,7 @@ a:hover
     grid-row: 2 / 3;
     background-color: #e2e8f0;
     display: inline-grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 0.7fr;
     padding: 30px;
 }
 
@@ -234,10 +244,13 @@ a:hover
 .projectText
 {
     grid-row: 1 / 2;
+    display: inline-grid;
+    grid-template-rows: 0.4fr 1fr;
 }
 
 .projectText > :first-child
 {
+    font-size: large;
     font-weight: bolder;
 }
 
@@ -264,7 +277,79 @@ a:hover
 #announcement
 {
     grid-column: 2 / 3;
+    display: inline-grid;
+    grid-template-rows: 1fr 0.8fr;
+    gap: 30px;
 }
 
+#news
+{
+    grid-row: 1 / 2;
+    display: inline-grid;
+    grid-template-rows: 0.2fr 1fr;
+}
+
+#news > :first-child
+{
+    padding-left: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#news > :last-child
+{
+    background-color: white;
+    border: white 1px solid;
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-grid;
+    gap: 15px;
+}
+
+.news-article > :first-child
+{
+    font-weight: bold;
+}
+
+.news-article > :last-child
+{
+    color: gray;
+}
+
+.article-divider
+{
+    border: 1px lightgrey solid;
+    height: 0px;
+}
+
+#trending
+{
+    display: inline-grid;
+    grid-template-rows: 0.15fr 1fr;
+}
+
+#trending > :first-child
+{
+    padding-left: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#trending > :last-child
+{
+    background-color: white;
+    border: white 1px solid;
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-grid;
+    gap: 15px;
+}
+
+.trending-control
+{
+    display: inline-grid;
+    grid-template-columns: 0.3fr 1fr;
+    gap: 20px;
+}
 
 /*#endregion Main Content*/
