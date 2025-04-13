@@ -8,4 +8,6 @@
 - [X] Style the design (color palettes, icons, images, fonts, etc.)
 - [X] Publish the finished design to GitHub Pages
 
-Page: https://kristijanturic.github.io/odin-admin-dashboard/
+Demo: [Admin Dashboard](https://kristijanturic.github.io/odin-admin-dashboard/)
+
+![Admin Dashboard Preview](preview.png)
